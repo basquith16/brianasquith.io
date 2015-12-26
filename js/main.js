@@ -40,6 +40,11 @@ $(document).ready(function() {
     $('#hiddenPost').toggleClass('hidden');
     $('#moreBlog').fadeOut();
   });
+
+  $('#lessBlogButton').on('click', function() {
+    $('#hiddenPost').toggleClass('hidden');
+    $('#moreBlog').fadeIn();
+  });
 });
 
 smoothScroll.init({
