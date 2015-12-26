@@ -143,7 +143,6 @@ nav a:hover {
      padding-top: 20px;
      width: 100%;
      transition: 1s all ease;
-
    }
 
    .nav > li > a {
@@ -308,6 +307,11 @@ nav a:hover {
 
    .projects {
      padding-bottom: 10%;
+   }
+
+   .descripParags {
+     font-size: 15px;
+     margin-top: -5%;
    }
 
    section#parallax {
