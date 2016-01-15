@@ -149,9 +149,7 @@ nav a:hover {
      text-transform: uppercase;
      color: #ffffff;
      font-size: 1.3em;
-     text-shadow: 1px 1px 1px black;
-     -webkit-text-shadow: 1px 1px 1px black;
-     moz-text-shadow: 1px 1px 1px black;
+     font-weight: 200;
    }
 
    .nav>li>a:hover,
@@ -164,13 +162,15 @@ nav a:hover {
      transition: 2s all ease;
    }
    #title {
-     font-size: 67px;
+     font-size: 72px;
+     font-weight: 200;
      color: white;
      padding: 5% 0 0 10%;
    }
 
    #subTitle {
      color: white;
+     font-weight: 200;
      padding-left: 10%;
    }
    body > section {
