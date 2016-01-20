@@ -191,7 +191,7 @@ nav a:hover {
      background-image: url('../img/notebook.jpg');
      background-repeat: no-repeat;
      background-size: cover;
-     min-height: 600px;
+     min-height: 700px;
      padding: 100px 0;
    }
 
@@ -629,4 +629,39 @@ section#download .platforms > div {
     h3 {
         page-break-after: avoid;
     }
+}
+
+@media all and (max-width: 480px) {
+
+  #gitHubPic {
+    max-width: 100px !important;
+    max-height: 100px !important;
+    margin-left: 20%;
+  }
+
+  #featuresImage {
+    display: none;
+  }
+
+  .attributes {
+    display: none;
+  }
+
+  .content {
+    margin: 0;
+    text-align: center;
+  }
+
+  .content h4 {
+    margin: 0;
+    font-weight: bolder;
+  }
+
+  .content ul {
+    margin-left: -10%;
+  }
+
+  #aboutParag {
+    margin: 0;
+  }
 }
