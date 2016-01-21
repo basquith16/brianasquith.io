@@ -23,7 +23,7 @@ $(document).ready(function() {
   $('.features-image img').waypoint(function() {
     $('.features-image img').addClass('animated zoomIn')
   }, {
-    offset: '50%'
+    offset: '99%'
   });
 
   $('#moreButton').on('click', function() {
