@@ -28,7 +28,7 @@ $(document).ready(function() {
 
   $('#moreButton').on('click', function() {
     $('#moreButton').fadeOut();
-    $('.hidden').toggleClass('hidden');
+    $('#hidden').toggleClass('hidden');
   });
 
   $('#lessButton').on('click', function() {
