@@ -6,7 +6,7 @@ $(document).ready(function() {
   var nav = $('.navbar-fixed-top');
   var distance = $('.navbar-fixed-top').offset();
 
-  if (distance.top >= 300) {
+  if (distance.top >= 300)  {
     nav.addClass('effect');
   }
 
@@ -46,6 +46,7 @@ $(document).ready(function() {
     $('#moreBlog').fadeIn();
   });
 });
+
 
 smoothScroll.init({
   speed: 700,
