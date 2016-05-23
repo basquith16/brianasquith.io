@@ -132,6 +132,9 @@ nav a:hover {
     color: white;
     padding: 20px 0;
 }
+.footer-container {
+  background: #000;
+}
 
 /* ===============
     ALL: IE Fixes
@@ -189,7 +192,6 @@ nav a:hover {
 
    section#head {
      background-image: url('../img/notebook.jpg');
-     background-repeat: no-repeat;
      background-size: cover;
      min-height: 700px;
      padding: 100px 0;
@@ -218,14 +220,16 @@ nav a:hover {
      content: "";
      height: 5px;
      width: 40px;
-     background-color: #15365b;
+     background-color: #fff;
      display: block;
      margin: 0 auto;
      margin-top: 8px;
+
    }
 
    #contact {
-     background: #fff;
+     background: #AEB6BA;
+     border-top: 1px solid rgba(#000, .8);
    }
 
    ul {
@@ -235,11 +239,14 @@ nav a:hover {
    .blue-circle {
      width: 100%;
      padding-bottom: 100%;
-     background-color: #fff;
+     background-color: #aeb6ba;
      border-radius: 50%;
      -moz-border-radius: 50%;
      -webkit- border-radius: 50%;
      margin: 0 auto;
+     .fa {
+       color: #fff;
+     }
    }
 
    #gitHubPic, #resumePic, #emailPic {
@@ -267,13 +274,18 @@ nav a:hover {
 
    .blue-circle div i {
      font-size: 3em;
-     color: #335C67;
+     color: #404040;
    }
 
    #aboutParag {
      margin: -5% 0 0 15%;
      padding-bottom: 10%;
+   }
 
+   header {
+     position: relative;
+     z-index: 999;
+     background: #fff;
    }
 
    #contact .blue-circle {
@@ -301,7 +313,9 @@ nav a:hover {
    }
 
    section#features {
-     background: transparent;
+     background: url('../img/skillsBG.jpeg');
+     background-size: cover;
+     background-position: 50% 50%;
    }
 
    .item-feature {
@@ -314,6 +328,10 @@ nav a:hover {
 
    .projects {
      padding-bottom: 10%;
+   }
+   #contactInfo > h5, #contact > div > div > div > h5 {
+     color: #404040;
+     letter-spacing: .05em;
    }
 
    .descripParags {
@@ -413,19 +431,49 @@ section#download .platforms > div {
   -webkit-animation-duration: 3s;
   margin: 10% 0 5% 60%;
   height: 300px;
-  border: 1px solid gray;
+  -webkit-box-shadow: 0 5px 10px #aaa;
+     -moz-box-shadow: 0 5px 10px #aaa;
+          box-shadow: 0 5px 10px #aaa;
 }
 
 .attributes {
   margin-left: 65%;
   width: 100%;
-  font-size: 14px;
-  color: rgb(0, 0, 51)
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+ul li {
+  color: #fff;
+  text-shadow: 0px 1px 1px black;
+  -moz-text-shadow: 0px 1px 1px black;
+  -webkit-text-shadow: 0px 1px 1px black;
 }
 
-#aboutBrian, #lifeLyrics {
-  font-weight: 200;
+.listHeadlines {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: .05em;
+  text-shadow: 0px 1px 1px black;
+  -moz-text-shadow: 0px 1px 1px black;
+  -webkit-text-shadow: 0px 1px 1px black;
 }
+
+#lifeLyrics {
+  padding-top: 30px;
+}
+#aboutBrian {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0px 1px 1px black;
+  -moz-text-shadow: 0px 1px 1px black;
+  -webkit-text-shadow: 0px 1px 1px black;
+}
+
 
 /* ==========================================================================
    Media Queries
