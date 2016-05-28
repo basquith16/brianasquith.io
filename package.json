@@ -32,5 +32,17 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
     "reactify": "^1.1.1"
-  }
+  },
+  "gh-pages-deploy": {
+  "staticpath": "dist",
+  "cname": "brianasquith.io",
+  "prep": [
+    "build-sass",
+    "optimize-img"
+  ],
+  "post": [
+    "clean-source"
+  ],
+  "noprompt": false
+},
 }
